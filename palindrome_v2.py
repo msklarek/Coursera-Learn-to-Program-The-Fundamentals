@@ -1,3 +1,6 @@
+import palindrome_v1
+
+
 def is_palindrome_v2(s):
     '''(str) -> bool
 
@@ -15,17 +18,6 @@ def is_palindrome_v2(s):
 
     # Compare the first half of s to reverse of the second half.
     # Omit the middle character of an old-lengthstring.
-    return s[:n//2] == reverse(s[n - n // 2:])
+    return s[:n//2] == palindrome_v1reverse(s[n - n // 2:])
 
-def reverse(s):
-    '''(str) - > str
-    Return a reversed version of s.
-
-    >>>reverse('hello')
-    'olleh'
-    '''
-    word = ''
-    for i in s:
-        word = i + word
-    return word 
-    
+print('In version 2, the module name is ', __name__)
