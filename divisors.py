@@ -12,12 +12,12 @@ def get_divisors(num, possible_divisors):
 
     divisors = []
     for item in possible_divisors:
-        # if item == 0 it will return ZeroDivisionError
         if item != 0 and num % item == 0:
             divisors.append(item)
 
     return divisors
 
-import doctest
-doctest.testmod()
 
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()

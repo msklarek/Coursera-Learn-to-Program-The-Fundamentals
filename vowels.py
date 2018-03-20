@@ -4,9 +4,9 @@ def count_vowels(s):
     Return the number of vowels in s. Do not
     treat the letter y as a vowel.
     
-    >>> count_vowels('Happy Anniversary!')
+    >>>count_vowels('Happy Anniversary!')
     5
-    >>> count_vowels('xyz')
+    >>>count_vowels('xyz')
     0
     '''
     num_vowels = 0
@@ -21,9 +21,9 @@ def return_vowels(s):
 
     Return the vowels from a given string s.
     
-    >>> return_vowels('Happy Anniversary!')
+    >>>return_vowels('Happy Anniversary!')
     'aAiea'
-    >>> return_vowels('xyz')
+    >>>count_vowels('xyz')
     ''
     '''
     vowels = ''
